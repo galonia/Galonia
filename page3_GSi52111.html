@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Galonia">
+        <meta name="viewport" content="width=device-width">
+        <link href="css/project_GSi52111.css" rel="stylesheet">
+        <script src="script/project_GSi52111.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h2>Chalo Bharat - Paradise on Earth</h2>
+        </header>
+        <nav>
+            <ul>
+                <li id="nav1" ><a href="index.html">Home</a></li>
+                <li class="nav2"><a href="page2_GSi52111.html">India in Detail</a></li>
+                <li class="nav2"><a href="page3_GSi52111.html">Book Tour</a></li>
+                
+            </ul>
+        </nav>
+        
+        <article >
+            <section>
+                <p >
+                    <iframe class="videosec" width="80%" height="70%" src="https://www.youtube.com/embed/uIjsc_ifIS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </iframe>
+                </p>
+                
+            </section>
+        </article>
+        <article class="tab">
+            <table >
+                <caption><h2>Package Details</h2></caption>
+                <thead>
+                    <tr>
+                        <th>Region</th>
+                        <th>Silver package</th>
+                        <th>Gold Package</th>
+                        <th>Platinum Package</th>
+                        <th>Pickup/Drop</th>
+                    </tr>
+                </thead>
+                <tbody id="t1">
+                    <tr>
+                        <td>North</td>
+                        <td>Jaipur - Udaipur - Mt. Abu</td>
+                        <td>Kullu - Manali - Rohtang</td>
+                        <td>Chandigarh - Amritsar - Jammu and Kashmir</td>
+                        <td rowspan="2">Delhi</td>
+                    </tr>
+                </tbody>
+                <tbody id="t3">
+                    <tr>
+                        
+                        <td>East</td>
+                        <td>Kolkata - Ranchi - Jamshedpur</td>
+                        <td>Darjeeling - Silliguri</td>
+                        <td>Gangtok - Twang - Shillong - North Sikkim</td>
+                        <td>Kolkata</td>
+                        
+                    </tr>
+                </tbody>
+                
+                <tbody id="t2">
+                    <tr>
+                        
+                        <td>South</td>
+                        <td>Bangalore - Coorg</td>
+                        <td>Otty - Mysore</td>
+                        <td>Munnar - Kovallum - Kanyakumari - Thrivanthampuram - Allepey </td>
+                        <td >Bangalore</td>
+                        
+                    </tr>
+                </tbody>
+                <tbody id="t4">
+                    <tr>
+                        
+                        <td>West</td>
+                        <td>Pune - Mahableshwar</td>
+                        <td>Ahemdabad - Vadodra</td>
+                        <td>Mumbai - Goa</td>
+                        <td>Mumbai</td>
+                        
+                    </tr>
+                </tbody>
+                <tfoot id="t5">
+                    <tr>
+                        
+                        <td colspan="5"><strong>Note: </strong> The above cost of the trips is per person and International travel, visa fee are not included in the package fare.</td>
+                        
+                    </tr>
+                </tfoot>
+
+            </table>
+            </article>
+            <article>
+            <form name="bookt" action="" method="get" enctype="application/x-www-form-urlencoded">
+                <fieldset id="bw" >
+                    <legend id="main">Booking Window</legend>
+                <fieldset class="f1">
+                    <legend>Personal Details</legend>
+                    <div>
+                        <label for="uname">Name</label>
+                        <input type="text" name="uname" placeholder="Enter Your Full Name as on the Passport" id="uname" required>
+                    </div>
+                    <div>
+                        <label for="uage">age</label>
+                        <input type="number" name="uage" placeholder="Enter your age" id="uage" required></div>
+                    <div>
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" name="mobile" placeholder="Enter valid 10 digit number" id="mobile" pattern="^\d{3}-\d{3}-\d{4}$" required></div>
+                    <div>
+                        <label for="ugender">Gender</label>
+                        <span>
+                            <input type="radio" name="ugender" value="female" id="ugender" required>Female
+                            <input type="radio" name="ugender" value="male" id="ugender" required>Male
+                            <input type="radio" name="ugender" value="other" id="ugender" required>Other
+                        </span></div>
+                    <div>
+                        <label for="uemail">Email</label>
+                        <input type="email" name="uemail" placeholder="adbc@xmail.com" id="uemail" required></div>
+                    <div>
+                        <label for="baddress">Billing Address</label>
+                        <input type="text" name="baddress" placeholder="full address, Postal code" id="baddress" required></div>
+
+                </fieldset>
+                <fieldset class="f1">
+                    <legend>Tour Details</legend>
+                    
+                    <div>
+                        <label for="treg">Tour Package</label>
+                        <span>
+                            <input type="checkbox" name="treg" value="silver" id="treg1" required>Silver 
+                            <input type="checkbox" name="treg" value="gold" id="treg2" required>Gold 
+                            <input type="checkbox" name="treg" value="platinum" id="treg3" required>Platninum 
+
+                        </span>
+                    </div>
+                    <div>
+                        <label for="tpack">Region in India</label>
+                        <select  name="tpack" onchange="regionimage(this)" required>
+                        <option value="images/IMG-20190224-WA0046.jpg">Select Region</option>
+                        <option value="images/IMG-20190224-WA0042.jpg" >North India</option>
+                            
+                        <option value="images/20191225_180018.jpg">South India</option>
+                        <option value="images/images.jpeg">West India</option>
+                        <option value="images/IMG_20180619_124520.jpg">East India</option>
+                    </select></div>
+
+                
+                    
+                    <div>
+                        <label for="people">Number of people</label>
+                        <input type="number" name="people" placeholder="Enter number of people accompanying you" id="people" required min="2" max="7"></div>
+                     </div>
+                    <div>
+                        <label for="sdate">Start Date</label>
+                        <input type="date" name="sdate"  id="sdate" min="2021-12-01" max="2020-12-01" required></div>
+                    
+                    </div>
+
+                </fieldset>
+                
+                    <input type="hidden" name="page4" value="page">
+                    <div id="button">
+                        <input type="submit" name="sub" value="Submit The Information" onclick="runform(this.form)">
+                        <input type="reset" name="clr" value="Clear the Information">
+                    
+                    </div>
+                    
+                </fieldset>
+                <fieldset id="pd">
+
+                    <legend>Preview  Region</legend>
+                    <h3>Chalo Bharat</h3>
+                    <p>India is land of culture, music, entertainment. People from various parts of the world love to travel and explore Indian culture and its heritage.Things that attract the tourists most except for the views and food is hosting. Tourists are respected nationwide and treated with love, kindness and care.Once a person vists India they love to come back again.</p>
+                    <p>
+                        <img src="images/IMG-20190224-WA0046.jpg" id="reimg">
+                    </p>
+
+                </fieldset>
+            </form>
+        </article>
+        <article id="contact">
+            <section>
+                <h3>Chalo Bharat- Paradise on Earth</h3>
+             </section>
+            </section>
+            <section>
+                <h3>Contact Us :</h3>
+                
+                    <p> &phone; phone: 778-333-1111</p>
+                    <p> &#9993; email:cIndia123@gmail.com </p>
+                
+            </section>
+        </article>
+        <footer>
+            <small>
+                Copyright &copy; 2021 Galonia Singla (300352111)
+            </small>
+        </footer>
+
+    </body>
+</html>

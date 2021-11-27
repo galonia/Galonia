@@ -1,0 +1,568 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: snow;
+}
+body{
+    background-color: cornsilk;
+    width: 100%;
+    border: 1px solid black;
+    padding: 0 30px 10px;
+    min-height: 500px;
+}
+
+header{
+    background-image: url('../images/IMG_20190330_143259-01.jpeg');
+    height: 400px;
+    background-size: 100% 100%;
+    
+    text-align: right;
+    background-color: maroon;
+    border: 4px solid maroon;
+
+}
+header>h2{
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 343px;
+    color: maroon;
+    
+}
+nav{
+    margin: 15px 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+nav>ul{
+    list-style-type:none;
+    
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    
+    background-color: maroon;
+}
+
+
+#nav1{
+    float: left;
+
+}
+li{
+    float:right;
+    
+}
+
+
+nav>ul>li{
+    
+    
+    
+    line-height: 2.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: snow;
+    padding: 10px 17px;
+    font-weight: bold;
+}
+ul>li>a:hover{
+    background-color: blanchedalmond;
+    border-bottom: 1px solid black;
+    color: black;
+}
+footer{
+    background-color: maroon;
+    clear: both;
+    height: 20%;
+    padding: 10px 17px;
+    font-size: medium;
+    color: snow;
+
+}
+#contact{
+    clear: both;
+    background-color: peachpuff;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10%;
+    
+}
+#page1{
+    margin-bottom: 10%;
+}
+article, section,p{
+    padding: 5px;
+}
+article{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    clear: left;
+    
+}
+.i1{
+    float: left;
+    width: 42%;
+    height: 350px;
+    padding-top: 25px;
+
+    
+}
+.i1>figure>img{
+    height: 310px;
+    width: 80%;
+    border: 3px dotted maroon;
+}
+.i2{
+    float: right;
+    width: 58%;
+    height: 350px;
+    padding-top: 25px;
+    
+    
+}
+#n1{
+    float: left;
+    width: 40%;
+    height: 350px;
+    padding-top: 25px;
+    
+    
+    
+
+}
+
+#n2>figure>img{
+    height: 320px;
+    width: 95%;
+    border: 3px dotted maroon;
+}
+#n2{
+    float: right;
+    width: 55%;
+    height: 350px;
+    padding-top: 25px;
+    
+    
+
+}
+#s1{
+    float: left;
+    width: 50%;
+    height: 350px;
+    padding-top: 25px;
+    
+
+}
+#s1>figure>img{
+    height: 320px;
+    width: 90%;
+    border: 3px dotted maroon;
+}
+#s2{
+    float: right;
+    width: 50%;
+    height: 350px;
+    padding-top: 25px;
+    
+
+}
+#e1{
+    float: left;
+    width: 50%;
+    height: 350px;
+    padding-top: 25px;
+    
+
+}
+
+#e2>figure>img{
+    height: 320px;
+    width: 100%;
+    border: 3px dotted maroon;
+}
+#e2{
+    float: right;
+    width: 50%;
+    height: 350px;
+    padding-top: 25px;
+    
+
+}
+#w1{
+    float: left;
+    width: 45%;
+    height: 350px;
+    padding-top: 25px;
+
+    margin-bottom: 25px;
+    
+    
+
+}
+#w2{
+    float: right;
+    width: 50%;
+    height: 350px;
+    padding-top: 25px;
+
+    margin-bottom: 50px;
+    
+    
+
+}
+
+#w1>figure>img{
+    height: 320px;
+    width: 100%;
+    border: 3px dotted maroon;
+}
+article>h2{
+    color: maroon;
+    padding-top: 17px;
+    text-align: center;
+    font-size: large;
+}
+
+
+table{
+    border: 1px double maroon;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td,th{
+    border: 1px double maroon;
+    padding: 10px;
+}
+thead{
+    background-color: coral;
+    color: snow;
+}
+caption{
+    font-size: x-large;
+    color: maroon;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+form{
+    padding-top: 35px;
+}
+
+
+
+
+
+form> fieldset{
+    flex: 1 1 40%;
+    height: 50%;
+}
+fieldset>p>img{
+    width: 400px;
+    height: 270px;
+    border: 1px solid maroon;
+}
+fieldset>h3{
+    color: maroon;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+fieldset{
+    margin-bottom: 20px;
+    height: 70%;
+    flex: 1 1 50%;
+    margin-top: 10px;
+    border:2px solid maroon;
+}
+
+legend{
+    padding: 6px;
+    background-color: peachpuff;
+    border: 3px solid maroon;
+    color: maroon;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.f1{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+fieldset > div{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    height: 20px;
+}
+fieldset>div>*{
+    
+    flex: 1 1 200px;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: maroon;
+    color: snow;
+    border-radius: 7px;
+
+    
+    
+}
+
+select:focus{
+    background-color: honeydew;
+}
+input#uname:focus:valid{
+    background-color: honeydew;
+}
+input#uage:focus:valid{
+    background-color: honeydew;
+}
+input#mobile:focus:valid{
+    background-color: honeydew;
+}
+input#uemail:focus:valid{
+    background-color: honeydew;
+}
+
+input#ugender:focus:valid{
+    background-color: honeydew;
+}
+input#treg:focus:valid{
+    background-color: honeydew;
+}
+
+#bw{
+    width: 65%;
+    float :left;
+    margin-bottom: 40px;
+    
+    
+}
+#pd{
+    width: 33%;
+    float: right ;
+    margin-bottom: 40px;
+}
+
+
+.ngrid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(10,5vw);
+    gap: 15px;
+}
+.gridimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+    
+
+}
+figcaption{
+    color: maroon;
+    font-family: cursive;
+}
+aside{
+    width: 30%;
+    float: left;
+    height: 800px;
+    background-color: coral;
+    opacity: 5px;
+    color: snow;
+    border: 2px solid maroon;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 30px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+aside>h3{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    font-size: large;
+}
+.ngrid{
+    margin: 10px 10px 10px 10px;
+}
+#g1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+#g5{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+
+#g9{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+
+#g8{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 9;
+
+}
+
+#g7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+}
+#g6{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    
+
+}
+#g4{
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 12;
+    
+
+}
+#g3{
+    
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 12;
+}
+.mod{
+    border: 2px solid maroon;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: cornsilk;
+}
+.videosec{
+    border: 1px dashed maroon;
+    margin-left: 125px;
+    height: 450px;
+}
+.southdive{
+    width: 40%;
+    height: 320px;
+    margin-left: 375px;
+    border: 2px dashed maroon;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.southhead{
+    color: maroon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    header>h2{
+        font-size: x-large;
+        
+    }
+    li{
+        float: none;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .ngrid{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .videosec{
+        margin-left: 0px;
+        width: 50%;
+        height: 250px;
+    }
+    .tab{
+        overflow-x: auto;
+    }
+    
+#bw{
+    float: none;
+    margin-left: 0;
+}
+#pd{
+    float: none;
+
+    margin-left: 0;
+    width: 40%;
+}
+fieldset> div> *{
+    flex: 1 1 40%;
+}
+
+
+}
+@media only screen and (max-width: 800px)
+{
+    .ngrid{
+        flex: 100%;
+        max-width: 100%;
+    }
+    aside{
+        height:900px;
+    }
+    .southdive{
+        width: 40%;
+        height: 220px;
+        margin-left: 205px;
+        border: 2px dashed maroon;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    
+    }#bw{
+        float: none;
+        margin-left: 95px;
+    }
+    #pd{
+        float: none;
+        margin-left: 115px;
+    }
+    .videosec{
+        margin-left: 72px;
+    }
+
+}

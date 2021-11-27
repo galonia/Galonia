@@ -1,0 +1,13 @@
+facts and figures are from wikipedia. links are as follows:
+https://en.wikipedia.org/wiki/North_India
+https://en.wikipedia.org/wiki/South_India
+https://en.wikipedia.org/wiki/East_India
+https://en.wikipedia.org/wiki/West_India
+
+
+images and videos are self clicked.
+
+link to youtube video presentation: <iframe width="560" height="315" src="https://www.youtube.com/embed/czgc2UUZwKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    https://www.youtube.com/watch?v=czgc2UUZwKM
+github repositary:
+website link: 
